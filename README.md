@@ -35,18 +35,18 @@ jupyter notebook
 code
 ```
 
-    Note: If this step doesn't work you may need to revise that VS Code environmental variable is correctly set (beyond the scope of this document)
+   *Note: If this step doesn't work you may need to revise that VS Code environmental variable is correctly set (beyond the scope of this document)*
 
 3. Press Ctrl+Sht+P (To Open the Command Palette) and search for "Notebook: Select Notebook Kernel"
 
-    Make sure to select your correct Anaconda version ('base':conda) or ('environment-name':conda)  
+    - Make sure to select your correct Anaconda version ('base':conda) or ('environment-name':conda)  
 
 4. Press Ctrl+Sht+P (To Open the Command Palette) and search for "Python: Select Interpreter"
 
-    Make sure to select your correct Anaconda version ('base':conda) or ('environment-name':conda)
+    - Make sure to select your correct Anaconda version ('base':conda) or ('environment-name':conda)
 5. (Optional) If you have a environment, open a "Command Prompt Terminal". It should automatically write something like:
 ```
-conda activate "environment-name"
+conda activate environment-name
 ```
    If it doesn't appear, you need to write it so that the name of your environment appears at the beginning of the command line
 
